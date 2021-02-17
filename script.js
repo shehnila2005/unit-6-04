@@ -2,7 +2,7 @@ let a = 0
 let b = 0
 let c = 0
 
-document.getElementById('button').addEventListener ('click',formula)
+document.getElementById('button').addEventListener('click', formula)
 
 function formula () {
   a = document.getElementById('a-value').value
@@ -12,7 +12,7 @@ function formula () {
   a = parseInt(a)
   b = parseInt(b)
   c = parseInt(c)
-  button = (a + b)/2*c
+  button = (a + b) / 2 * c
 
-alert(button)
+  alert(button)
 }
