@@ -1,7 +1,7 @@
 let a = 0
 let b = 0
 let c = 0
-
+let button = 0
 document.getElementById('button').addEventListener('click', formula)
 
 function formula () {
